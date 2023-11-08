@@ -1,0 +1,430 @@
+@media screen and (max-width: 529px) {
+    .container .title h1 {
+        font-size: 50px;
+        padding: 7px 12px;
+    }
+
+    .container .hours .duration button {
+        font-size: 22px;
+    }
+
+    .container form.firstForm .readingInput .starting h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 513px) {
+
+    .container .title h1 {
+        font-size: 48px;
+        padding: 7px 12px;
+    }
+
+    .container .hours .duration button {
+        font-size: 22px;
+    }
+
+    .container form.firstForm .readingInput .starting h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 469px) {
+    .container .title h1 {
+        font-size: 48px;
+        padding: 7px 12px;
+    }
+
+    .container .hours {
+        padding: 0 15px;
+        margin-top: 23px;
+    }
+
+    .container form.firstForm {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 432px) {
+    .container .title h1 {
+        font-size: 43px;
+        padding: 7px 12px;
+    }
+
+    .container .hours {
+        padding: 0 15px;
+        margin-top: 23px;
+    }
+
+    .container form.firstForm {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 416px) {
+    .container .title h1 {
+        font-size: 41px;
+        padding: 7px 12px;
+    }
+
+    .container .hours {
+        padding: 0 15px;
+        margin-top: 23px;
+    }
+
+    .container form.firstForm {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container .title h1 {
+        font-size: 40px;
+        padding: 7px 12px;
+    }
+
+    .container .hours {
+        padding: 0 15px;
+        margin-top: 23px;
+    }
+
+    .container form.firstForm {
+        margin-top: 30px;
+    }
+
+    .container .hours .duration button {
+        font-size: 20px;
+    }
+
+    .container form.firstForm {
+        margin-inline: inherit;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .container .title h1 {
+        font-size: 38px;
+        padding: 7px 12px;
+    }
+
+    .container .hours {
+        padding: 0 15px;
+        margin-top: 23px;
+    }
+
+    .container form.firstForm {
+        margin-top: 30px;
+    }
+
+    .container .hours .duration button {
+        font-size: 18px;
+    }
+
+    .container form.firstForm {
+        margin-inline: inherit;
+    }
+
+    .container form.firstForm .readingInput .starting h1 {
+        font-size: 25px;
+    }
+
+    .container form.firstForm .readingInput .starting input::placeholder {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container .title h1 {
+        font-size: 38px;
+        padding: 7px 12px;
+    }
+
+    .container .hours {
+        padding: 0 10px;
+        margin-top: 23px;
+    }
+
+    .container form.firstForm {
+        margin-top: 30px;
+    }
+
+    .container .hours .duration button {
+        font-size: 19px;
+    }
+
+    .container form.firstForm {
+        margin-inline: inherit;
+    }
+
+    .container form.firstForm .readingInput .starting h1 {
+        font-size: 24px;
+    }
+
+    .container form.firstForm .readingInput .starting input::placeholder {
+        font-size: 23px;
+    }
+
+    .container form.firstForm .readingInput {
+        padding: 15px 19px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container .title h1 {
+        font-size: 35px;
+        padding: 7px 12px;
+    }
+
+    .container .hours {
+        padding: 0 10px;
+        margin-top: 23px;
+    }
+
+    .container form.firstForm {
+        margin-top: 30px;
+    }
+
+    .container .hours .duration button {
+        font-size: 19px;
+    }
+
+    .container form.firstForm {
+        margin-inline: inherit;
+    }
+
+    .container form.firstForm .readingInput .starting h1 {
+        font-size: 24px;
+    }
+
+    .container form.firstForm .readingInput .starting input::placeholder {
+        font-size: 23px;
+    }
+
+    .container form.firstForm .readingInput {
+        padding: 15px 19px;
+    }
+
+    .container form.firstForm .readingInput .starting input {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .container .title h1 {
+        font-size: 35px;
+        padding: 7px 12px;
+    }
+
+    .container .hours {
+        padding: 0 10px;
+        margin-top: 23px;
+    }
+
+    .container form.firstForm {
+        margin-top: 30px;
+    }
+
+    .container .hours .duration button {
+        font-size: 19px;
+    }
+
+    .container form.firstForm {
+        margin-inline: inherit;
+    }
+
+    .container form.firstForm .readingInput .starting h1 {
+        font-size: 24px;
+    }
+
+    .container form.firstForm .readingInput .starting input::placeholder {
+        font-size: 23px;
+    }
+
+    .container form.firstForm .readingInput {
+        padding: 15px 17px;
+    }
+
+    .container form.firstForm .readingInput .starting input {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .container .title h1 {
+        font-size: 35px;
+        padding: 7px 12px;
+    }
+
+    .container .hours {
+        padding: 0 10px;
+        margin-top: 23px;
+    }
+
+    .container form.firstForm {
+        margin-top: 30px;
+    }
+
+    .container .hours .duration button {
+        font-size: 19px;
+    }
+
+    .container form.firstForm {
+        margin-inline: inherit;
+    }
+
+    .container form.firstForm .readingInput .starting h1 {
+        font-size: 24px;
+    }
+
+    .container form.firstForm .readingInput .starting input::placeholder {
+        font-size: 23px;
+    }
+
+    .container form.firstForm .readingInput {
+        padding: 15px 17px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .container .title h1 {
+        font-size: 35px;
+        padding: 7px 12px;
+    }
+
+    .container .hours {
+        padding: 0 10px;
+        margin-top: 23px;
+    }
+
+    .container form.firstForm {
+        margin-top: 30px;
+    }
+
+    .container .hours .duration button {
+        font-size: 19px;
+    }
+
+    .container form.firstForm {
+        margin-inline: inherit;
+    }
+
+    .container form.firstForm .readingInput .starting h1 {
+        font-size: 24px;
+    }
+
+    .container form.firstForm .readingInput .starting input::placeholder {
+        font-size: 23px;
+    }
+
+}
+
+@media screen and (max-width: 355px) {
+    .container .title h1 {
+        font-size: 35px;
+        padding: 7px 12px;
+    }
+
+    .container .hours {
+        padding: 0 10px;
+        margin-top: 23px;
+    }
+
+    .container form.firstForm {
+        margin-top: 30px;
+    }
+
+    .container .hours .duration button {
+        font-size: 19px;
+    }
+
+    .container form.firstForm {
+        margin-inline: inherit;
+    }
+
+    .container form.firstForm .readingInput .starting h1 {
+        font-size: 24px;
+    }
+
+    .container form.firstForm .readingInput .starting input::placeholder {
+        font-size: 23px;
+    }
+
+    .container form.firstForm .readingInput {
+        padding: 15px 10px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .container .title h1 {
+        font-size: 35px;
+        padding: 7px 12px;
+    }
+
+    .container .hours {
+        padding: 0 10px;
+        margin-top: 23px;
+    }
+
+    .container form.firstForm {
+        margin-top: 30px;
+    }
+
+    .container .hours .duration button {
+        font-size: 19px;
+    }
+
+    .container form.firstForm {
+        margin-inline: inherit;
+    }
+
+    .container form.firstForm .readingInput .starting h1 {
+        font-size: 24px;
+    }
+
+    .container form.firstForm .readingInput .starting input::placeholder {
+        font-size: 23px;
+    }
+
+    .container form.firstForm .readingInput {
+        padding: 15px 10px;
+    }
+
+}
+
+@media screen and (max-width: 345px) {
+    .container .title h1 {
+        font-size: 35px;
+        padding: 7px 12px;
+    }
+
+    .container .hours {
+        padding: 0 10px;
+        margin-top: 23px;
+    }
+
+    .container form.firstForm {
+        margin-top: 30px;
+    }
+
+    .container .hours .duration button {
+        font-size: 19px;
+    }
+
+    .container form.firstForm {
+        margin-inline: inherit;
+    }
+
+    .container form.firstForm .readingInput .starting h1 {
+        font-size: 24px;
+    }
+
+    .container form.firstForm .readingInput .starting input::placeholder {
+        font-size: 23px;
+    }
+
+    .container form.firstForm .readingInput {
+        padding: 15px 10px;
+    }
+}

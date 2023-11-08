@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: aqua;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100wh;
+}
+
+.container .title {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.container .title h1 {
+    font-size: 55px;
+    padding: 7px 12px;
+    font-weight: bold;
+}
+
+.container .hours {
+    display: grid;
+    grid: 150px / auto auto auto;
+    grid-gap: 10px;
+    place-items: center;
+    margin-inline: auto;
+}
+
+.container .hours .duration button {
+    padding: 6px 12px;
+    font-size: 23px;
+    font-weight: bold;
+    color: aqua;
+    background: none;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    border: 2px solid aqua;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.container .hours .duration button:focus{
+    background-color: aqua;
+    box-shadow: rgb(119 119 219 / 25%) 0px 50px 100px -20px, rgb(215 192 192 / 30%) 0px 30px 60px -30px, rgb(179 202 224 / 35%) 0px -2px 6px 0px inset;
+    color: black;
+}
+
+.container .hours .duration button:hover{
+    color: black;
+    background-color: aqua;
+}
+
+.container .hours .duration button span {
+    color: red;
+}
+
+/************************************************ First Form ************************************************/
+
+.container form.firstForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: rgb(119 119 219 / 25%) 0px 50px 100px -20px, rgb(215 192 192 / 30%) 0px 30px 60px -30px, rgb(179 202 224 / 35%) 0px -2px 6px 0px inset;
+    
+}
+
+.container form.firstForm.showHide {
+    display: none;
+}
+
+.container form.firstForm .readingInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 23px;
+}
+
+.container form.firstForm .readingInput .starting:nth-child(2) {
+    margin-top: 25px;
+}
+
+.container form.firstForm .readingInput .starting h1 {
+    font-size: 30px;
+    margin-bottom: 2px;
+    word-spacing: 7px;
+}
+
+.container form.firstForm .readingInput .starting input {
+    border: none;
+    background: transparent;
+    color: aqua;
+    padding: 8px;
+    outline: none;
+    letter-spacing: 8px;
+    font-size: 26px;
+    border-bottom: 2px solid white;
+    transition: 0.3s ease;
+}
+
+.container form.firstForm .readingInput .starting input:focus{
+    border-bottom: 2px solid aqua;
+}
+
+.container form.firstForm .readingInput .starting input::placeholder {
+    color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+}
+
+.container form.firstForm .submitBtn button {
+    padding: 6px 10px;
+    font-size: 26px;
+    font-weight: bold;
+    color: aqua;
+    background: none;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    margin: 33px 0;
+    border: 2px solid aqua;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.container form.firstForm .submitBtn button:focus{
+    background-color: aqua;
+    box-shadow: rgb(119 119 219 / 25%) 0px 50px 100px -20px, rgb(215 192 192 / 30%) 0px 30px 60px -30px, rgb(179 202 224 / 35%) 0px -2px 6px 0px inset;
+    color: black;
+}
+
+.container form.firstForm .submitBtn button:hover{
+    color: black;
+    background-color: aqua;
+}
+
+.resultShowOne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    transition: all 0.3s linear ease-in-out;
+    display: none;
+}
+
+.resultShowOne.show {
+    display: block;
+}
+
+.resultShowOne table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-collapse: collapse;
+    margin: 23px 0;
+}
+
+.resultShowOne table caption {
+    font-size: 38px;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+.resultShowOne table tr{
+    border-left: 2px solid aqua;
+    border-top: 2px solid aqua;
+    border-right: 2px solid aqua;
+}
+
+.resultShowOne table tr th {
+    color: red;
+    border-left: 2px solid aqua;
+}
+
+.resultShowOne table tr th,
+.resultShowOne table tr td {
+    padding: 8px 18px;
+    font-size: 22px;
+    border-right: 2px solid aqua;
+    border-bottom: 2px solid aqua;
+}
+
+.resultShowOne table tr td:nth-child(2) {
+    letter-spacing: 3px;
+}
+
+
+/************************************************ Second Form ************************************************/
+
+
+.container form.secondForm {
+    margin-inline: auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: rgb(125 125 141 / 25%) 0px 50px 100px -20px, rgb(0 196 255 / 30%) 0px 30px 60px -30px, rgb(158 188 175 / 35%) 0px -2px 6px 0px inset;
+    display: none;
+    position: relative;
+}
+
+.container form.secondForm.hideShow {
+    display: block;
+}
+
+.container form.secondForm .readingInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 23px;
+}
+
+.container form.secondForm .readingInput .starting:nth-child(2) {
+    margin-top: 25px;
+}
+
+.container form.secondForm .readingInput .starting h1 {
+    font-size: 30px;
+    margin-bottom: 2px;
+    word-spacing: 7px;
+}
+
+.container form.secondForm .readingInput .starting input {
+    border: none;
+    background: transparent;
+    color: aqua;
+    padding: 8px;
+    outline: none;
+    letter-spacing: 8px;
+    font-size: 26px;
+    border-bottom: 2px solid white;
+    transition: 0.3s ease;
+}
+
+.container form.secondForm .readingInput .starting input:focus{
+    border-bottom: 2px solid aqua;
+}
+
+.container form.secondForm .readingInput .starting input::placeholder {
+    color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+}
+
+.container form.secondForm .submitBtn button {
+    padding: 6px 10px;
+    font-size: 26px;
+    font-weight: bold;
+    color: aqua;
+    background: none;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    margin: 33px 0;
+    border: 2px solid aqua;
+    cursor: pointer;
+    transition: 0.3s ease;
+    position: relative;
+    left: 31.2%;
+}
+
+.container form.secondForm .submitBtn button:focus{
+    background-color: aqua;
+    box-shadow: rgb(119 119 219 / 25%) 0px 50px 100px -20px, rgb(215 192 192 / 30%) 0px 30px 60px -30px, rgb(179 202 224 / 35%) 0px -2px 6px 0px inset;
+    color: black;
+}
+
+.container form.secondForm .submitBtn button:hover{
+    color: black;
+    background-color: aqua;
+}
+
+.resultShowTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    transition: all 0.3s linear ease-in-out;
+    display: block;
+}
+
+.resultShowTwo.shown{
+    display: none;
+}
+
+.resultShowTwo table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-collapse: collapse;
+    margin: 23px 0;
+}
+
+.resultShowTwo table caption {
+    font-size: 38px;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+.resultShowTwo table tr{
+    border-left: 2px solid aqua;
+    border-top: 2px solid aqua;
+    border-right: 2px solid aqua;
+}
+
+.resultShowTwo table tr th {
+    color: red;
+    border-left: 2px solid aqua;
+}
+
+.resultShowTwo table tr th,
+.resultShowTwo table tr td {
+    padding: 8px 18px;
+    font-size: 22px;
+    border-right: 2px solid aqua;
+    border-bottom: 2px solid aqua;
+}
+
+.resultShowTwo table tr td:nth-child(2) {
+    letter-spacing: 3px;
+}
+
+/************************************************ Third Form ************************************************/
+
+.container form.thirdForm {
+    margin-inline: auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: rgb(35 212 97 / 25%) 0px 50px 100px -20px, rgb(78 128 168 / 30%) 0px 30px 60px -30px, rgb(38 227 37 / 35%) 0px -2px 6px 0px inset;
+    display: none;
+    position: relative;
+}
+
+.container form.thirdForm.showHideForm {
+    display: block;
+}
+
+.container form.thirdForm .readingInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 23px;
+}
+
+.container form.thirdForm .readingInput .starting:nth-child(2) {
+    margin-top: 25px;
+}
+
+.container form.thirdForm .readingInput .starting h1 {
+    font-size: 30px;
+    margin-bottom: 2px;
+    word-spacing: 7px;
+}
+
+.container form.thirdForm .readingInput .starting input {
+    border: none;
+    background: transparent;
+    color: aqua;
+    padding: 8px;
+    outline: none;
+    letter-spacing: 8px;
+    font-size: 26px;
+    border-bottom: 2px solid white;
+    transition: 0.3s ease;
+}
+
+.container form.thirdForm .readingInput .starting input:focus{
+    border-bottom: 2px solid aqua;
+}
+
+.container form.thirdForm .readingInput .starting input::placeholder {
+    color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+}
+
+.container form.thirdForm .submitBtn button {
+    padding: 6px 10px;
+    font-size: 26px;
+    font-weight: bold;
+    color: aqua;
+    background: none;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    margin: 33px 0;
+    border: 2px solid aqua;
+    cursor: pointer;
+    transition: 0.3s ease;
+    position: relative;
+    left: 31.2%;
+}
+
+.container form.thirdForm .submitBtn button:focus{
+    background-color: aqua;
+    box-shadow: rgb(119 119 219 / 25%) 0px 50px 100px -20px, rgb(215 192 192 / 30%) 0px 30px 60px -30px, rgb(179 202 224 / 35%) 0px -2px 6px 0px inset;
+    color: black;
+}
+
+.container form.thirdForm .submitBtn button:hover{
+    color: black;
+    background-color: aqua;
+}
+.resultShowThree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    transition: all 0.3s linear ease-in-out;
+    display: block;
+}
+
+.resultShowThree.shown{
+    display: none;
+}
+
+.resultShowThree table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-collapse: collapse;
+    margin: 23px 0;
+}
+
+.resultShowThree table caption {
+    font-size: 38px;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+.resultShowThree table tr{
+    border-left: 2px solid aqua;
+    border-top: 2px solid aqua;
+    border-right: 2px solid aqua;
+}
+
+.resultShowThree table tr th {
+    color: red;
+    border-left: 2px solid aqua;
+}
+
+.resultShowThree table tr th,
+.resultShowThree table tr td {
+    padding: 8px 18px;
+    font-size: 22px;
+    border-right: 2px solid aqua;
+    border-bottom: 2px solid aqua;
+}
+
+.resultShowThree table tr td:nth-child(2) {
+    letter-spacing: 3px;
+}

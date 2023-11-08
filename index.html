@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Adjustment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Reading Adjustment</h1>
+        </div>
+
+        <div class="hours">
+            <div class="duration">
+                <button id="twoHours" value="2">Skip <br> <span>1
+                        Reading</span></button>
+            </div>
+
+            <div class="duration">
+                <button id="fourHours" value="4">Reading<br> <span>12:00 - 06:00
+                    </span></button>
+            </div>
+            <div class="duration">
+                <button id="skipTwoReading" value="2">Skip <br> <span>2
+                        Reading</span></button>
+            </div>
+        </div>
+
+        <!----------------------------------------------- First Form ----------------------------------------------->
+
+        <form action="#" class="firstForm">
+            <div class="readingInput">
+                <div class="starting">
+                    <h1>Initial Reading</h1>
+                    <input type="number" placeholder="000000" id="intialReading">
+                </div>
+                <div class="starting">
+                    <h1>Final Reading</h1>
+                    <input type="number" placeholder="000000" id="finalReading">
+                </div>
+            </div>
+            <div class="submitBtn">
+                <button onclick="myhandleClickTwo()">Calculate</button>
+            </div>
+            <div class="resultShowOne" id="resultShowOne">
+                <h1>1st result</h1>
+            </div>
+        </form>
+
+        <!----------------------------------------------- Second Form ----------------------------------------------->
+
+        <form action="#" class="secondForm">
+            <div class="readingInput">
+                <div class="starting">
+                    <h1>Initial Reading</h1>
+                    <input type="number" placeholder="000000" id="intialReadingSecond">
+                </div>
+                <div class="starting">
+                    <h1>Final Reading</h1>
+                    <input type="number" placeholder="000000" id="finalReadingSecond">
+                </div>
+            </div>
+            <div class="submitBtn">
+                <button onclick="myhandleClickFour()">Calculate</button>
+            </div>
+            <div class="resultShowTwo" id="resultShowTwo">
+
+            </div>
+        </form>
+
+        <!----------------------------------------------- Third Form ----------------------------------------------->
+
+        <form action="#" class="thirdForm">
+            <div class="readingInput">
+                <div class="starting">
+                    <h1>Initial Reading</h1>
+                    <input type="number" placeholder="000000" id="intialReadingThird">
+                </div>
+                <div class="starting">
+                    <h1>Final Reading</h1>
+                    <input type="number" placeholder="000000" id="finalReadingThird">
+                </div>
+            </div>
+            <div class="submitBtn">
+                <button onclick="myhandleSkipTwoReading()">Calculate</button>
+            </div>
+            <div class="resultShowThree" id="resultShowThree">
+
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
